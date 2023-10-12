@@ -9,3 +9,41 @@ header {
 #logo{
     margin-right: 50px;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  background-color:#D4E6F1;
+  float: left;
+  width: 25%;
+  padding: 25px;
+  margin-left: 100px;
+  height: 800px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.list_menu{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.dot {
+  display:inline-block;
+  align-items: center;
+  justify-content:center;
+  height: 150px;
+  width: 150px;
+  background-color: #fff;
+  border-radius: 50%;
+  
+}
